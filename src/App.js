@@ -8,6 +8,7 @@ import Home from './js/home';
 import Service from './js/service';
 import Contact from './js/contact';
 import NoPage from './js/404';
+import Footer from "./js/footer";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route index element={<Home/>} />
           <Route path="/service" element={<Service />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/footer" element={<Footer />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>

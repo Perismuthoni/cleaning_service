@@ -1,0 +1,30 @@
+.footer{
+    height: 250px;
+    background-color: blue;
+    color: white;
+}
+.footer_row{
+    column-count: 4;
+    height: 80%;
+}
+a.footer_column:link {
+color: white;
+}
+
+.footer_column{
+    height: inherit;
+}
+.header{
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footer_card_holder{
+    background-color: black;
+}
+.footer_card_area{
+    float: left;
+    color: white;
+    padding: 1px;
+    text-align: center;
+    width: 40%;
+}

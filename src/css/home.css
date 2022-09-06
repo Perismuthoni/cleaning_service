@@ -14,23 +14,45 @@
 }
 .card_holders{
     height: fit-content;
-    width: 100vw;
-    column-count: auto;
+    background-color: whitesmoke;
+    padding: 10vw;
+    align-items: center;
 }
+.card_holders:after {
+    content: "";
+    display: table;
+    clear: both;
+  
+  }
+
 .about_button{
     background-color: rgb(14, 14, 92);
     color: white;
     padding: 10px;
 }
-.card{
-    background-color: white;
+.card_area{
+    background-color: whitesmoke;
+    float: left;
+    width: 25%;
+    padding: 0 10px;
     color: black;
     width: 400px;
     height: 250px;
-    padding: 7px;
+    padding: 9px;
     text-align: left;
     overflow: hidden;
+
+
+
 }
+.card{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  height: 200px;
+}
+
 .tick{
     width: 40px;
     height: 40px;

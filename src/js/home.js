@@ -1,4 +1,6 @@
 import "../css/home.css"
+import Footer from './footer.js'
+
 function Home() {
   return (
     <div className="home">
@@ -21,6 +23,7 @@ function Home() {
 <br/><br/>
       <div className="card_holders">
 
+<div className="card_area"> 
 <div className="card">
 <div className="tick"> &#10003; </div>
 
@@ -31,7 +34,9 @@ function Home() {
 						We've completed over 1m cleans, with an average rating of 4.9-stars					</p>
 
 </div>
+</div>
 
+<div className="card_area"> 
 <div className="card">
 <div className="tick"> &#10003; </div>
 
@@ -43,7 +48,9 @@ function Home() {
 						We've completed over 1m cleans, with an average rating of 4.9-stars					</p>
 
 </div>
+</div>
 
+<div className="card_area"> 
 <div className="card">
 <div className="tick"> &#10003; </div>
 
@@ -54,7 +61,9 @@ function Home() {
                   Real brothers cleaning services uses a team of well trained professionals to undertake your cleaning				</p>
 
 </div>
+</div>
 
+<div className="card_area"> 
 <div className="card">
 <div className="tick"> &#10003; </div>
 
@@ -65,7 +74,9 @@ function Home() {
                   Pay a simple price per hour. Contact us for a bespoke quote for your residential block				</p>
 
 </div>
+</div>
 
+<div className="card_area"> 
 <div className="card">
 <div className="tick"> &#10003; </div>
 
@@ -76,11 +87,13 @@ function Home() {
                   Whether you need regular cleaning, a one-off deep clean or a tradesperson - we've got you covered				</p>
 
 </div>
+</div>
 
       </div>
      </div>
-     
+     <Footer/> 
     </div>
+
   );
 }
 
